@@ -1,7 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
 /*
 GAME RULES:
 - The game has 2 players, playing in rounds
@@ -29,6 +26,8 @@ so take a look at the CSS code for the first one.)
 
 var scores, roundScore, activePlayer, playing, lastDice;
 newGame();
+
+var lastDice;
 /*
 dice = Math.floor(Math.random() * 6) + 1;
 console.log('dice');
